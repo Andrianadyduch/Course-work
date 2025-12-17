@@ -22,7 +22,7 @@ DATABASE_URL="postgresql://andriana:@localhost:5432/course_db"
 npx prisma generate
 Ця команда створює Prisma Client, який використовується у проєкті для взаємодії з базою даних.
 
-5.Створення таблиць за схемою для prisma :
+5. Створення таблиць за схемою для prisma :
 Файл prisma/schema.prisma містить моделі:
 Client
 Order
