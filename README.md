@@ -12,13 +12,13 @@
 git clone https://github.com/Andrianadyduch/Course-work.git
 cd Course-work
 
-3. Встановіть залежності через NPM:
+2. Встановіть залежності через NPM:
 npm install
 
-4. Створіть .env файл у корені проєкту з налаштуваннями бази даних для Prisma та Sequelize:
+3. Створіть .env файл у корені проєкту з налаштуваннями бази даних для Prisma та Sequelize:
 DATABASE_URL="postgresql://andriana:@localhost:5432/course_db"
 
-4.Для Prisma:
+4. Для Prisma:
 npx prisma generate
 
 ## Запуск тестів
